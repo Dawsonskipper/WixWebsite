@@ -1,0 +1,30 @@
+#canvas {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  color: var(--bg);
+  position: relative;
+  font-size: 5.5vw;
+  line-height: 15vh;
+  margin: 1;
+  pointer-events: none;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--fg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+:root {
+  --fg: #000000;
+  --bg: #ffffff;
+}
